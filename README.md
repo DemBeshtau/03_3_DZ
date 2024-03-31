@@ -62,7 +62,7 @@ grub2-mkconfig -o /boot/grub2/grub.cfg
 grub2-install /dev/sdb
 ```
 14. Перезагрузка системы и её запуск с RAID;
-15. Смена типа раздела на sda c id 83 (linux) на fd (raid)
+15. Смена типа раздела на sda c id 83 (linux) на fd (raid):
 ```shell
 fdisk /dev/sda: 
 ```
